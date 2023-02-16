@@ -1,0 +1,13 @@
+{
+  "name": "sharedabc",
+  "type": "shared-fn",
+  "source": {
+    "https": "https://github.com/grgshiji/sharedabc",
+    "ssh": "git@github.com:grgshiji/sharedabc.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
